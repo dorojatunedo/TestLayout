@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">testapp</string>
+    <string name="login">masuk</string>
+    <string name="contoh">Nama Skype, email atau telepon</string>
+    <string name="ketik">Masuk di sini</string>
+    <string name="klik">Buat Akun</string>
+
+
+</resources>

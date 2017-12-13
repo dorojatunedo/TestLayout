@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.dncc.testapp.MainActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:src="@drawable/skype" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Masuk"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/contoh"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk di sini"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="308dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="#000000" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/arrow" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/klik"
+            android:textColor="#0000FF"
+            android:background="#FFFFFF"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
